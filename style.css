@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 2vh 2vw;
+    font-family: "Raleway", sans-serif;
+    user-select: none;
+    background-color: black;
+    color: white;
+}
+
+.asterisk{
+    color: red;
+    font-size: 4vw;
+}
+
+input, textarea, select, button{
+    display: block;
+    border: 1.5px solid #1A5319;
+    padding: 1vh 0.6vw;
+    font-size: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: "Raleway", sans-serif;
+    border-radius: 1vh;
+    background-color: transparent;
+    color: white;
+    width: 75vw;
+}
+
+label{
+    font-size: 4vw;
+    font-weight: 550;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    padding: 1.5vh 2vw;
+    border: 1px solid white;
+}
+
+.form-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    justify-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#sbmtbtn{
+    max-width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnctnr{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: white;
+    color: white;
+}
+
+.prvwtxt{
+    font-weight: bold;
+}
+
+.inpttxt{
+    font-size: 4vw;
+    padding-top: 1vh;
+    display: block;
+    font-weight:initial;
+}
+
+
+@media screen and (min-width: 1080px){
+    body{
+        margin: 2vh 2vw;
+    }
+    
+    .asterisk{
+        color: red;
+    }
+    
+    input, textarea, select, button{
+        display: block;
+        border: 1.5px solid white;
+        padding: 1vh 0.6vw;
+        font-size: 1.05vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-family: "Raleway", sans-serif;
+        border-radius: 1vh;
+        background-color: transparent;
+        color: white;
+        width: 33vw;
+    }
+    
+    label{
+        font-size: 1.05vw;
+        font-weight: 550;
+        color: white;
+    }
+    
+    button{
+        padding: 1.5vh 2vw;
+        border: 1px solid white;
+    }
+    
+    
+    #sbmtbtn{
+        max-width: 12vw;
+    }
+    
+    .asterisk{
+        color: red;
+        font-size: 1.05vw;
+    }
+
+    option{
+        background-color: black;
+    }
+
+    option:focus{
+        background-color: black;
+        color: white;
+    }
+    
+    .prvwtxt{
+        font-size: 1.41vw;
+    }
+
+
+    .inpttxt{
+        
+        font-size: 1.2vw;
+    }
+
+}

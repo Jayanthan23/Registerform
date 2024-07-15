@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form with validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="regform">
+            <h1>Registration form</h1>
+    
+                <label>
+                    First name<span class="asterisk">*</span>
+                    <input id="fname" required type="text">
+                </label>
+    
+                <label>
+                    Middle name
+                    <input id="mname" type="text">
+                </label>
+    
+                <label>
+                    Last name<span class="asterisk">*</span>
+                    <input id="lname" required type="text">
+                </label>
+    
+                <label>
+                    Contact no<span class="asterisk">*</span>
+                    <input id="cno" required type="text" pattern="[0-9]{10}">
+                </label>
+    
+                <label>
+                    Email<span class="asterisk">*</span>
+                    <input id="mail" required type="email">
+                </label>
+    
+                <label>
+                    Address<span class="asterisk">*</span>
+                    <textarea id="address" required></textarea>
+                </label>
+    
+                <label>
+                    Education qualification<span class="asterisk">*</span>
+                    <select id="edu" required>
+                        <option value="10th grade">10th grade</option>
+                        <option value="Pre-university">Pre-university</option>
+                        <option value="Under-graduate">Under-graduate</option>
+                        <option value="Post-graduate">Post-graduate</option>
+                        <option value="Higher studies">Higher studies</option>
+                    </select>
+                </label>
+    
+                <label>
+                    College<span class="asterisk">*</span>
+                    <input id="clg" required type="text">
+                </label>
+
+                <div class="btnctnr">
+                    <button id="sbmtbtn" type="submit">Submit</button>
+                </div>
+        </form>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
